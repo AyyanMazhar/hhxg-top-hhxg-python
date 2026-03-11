@@ -150,17 +150,25 @@ def fmt_ladder(data):
         boards = level.get("boards", "?")
         stocks = level.get("stocks", [])
         count = level.get("count", len(stocks))
+        fail_count = level.get("fail_count", 0)
 
         # 本级晋级率：key=boards 表示「boards板→boards+1板」的成功率
         rate = rates.get(str(boards), "")
         rate_str = "  · 晋级率 %s →%s板" % (rate, int(boards) + 1) if rate else ""
 
+        # 区分晋级成功和失败的股票
+        success_stocks = [s for s in stocks if s.get("is_success", True)]
+        fail_stocks = [s for s in stocks if not s.get("is_success", True)]
+
         names = " / ".join(
             ("%s(%s)" % (s.get("name", ""), ind) if (ind := s.get("industry", "")) else s.get("name", ""))
-            for s in stocks
+            for s in success_stocks
         )
         lines.append("### %s板（%s 只）%s" % (boards, count, rate_str))
         lines.append(names if names else "—")
+        if fail_stocks:
+            fail_names = " / ".join(s.get("name", "") for s in fail_stocks)
+            lines.append("晋级失败（%s只）: %s" % (fail_count, fail_names))
         lines.append("")
 
     areas = ld.get("area_counts", {})

